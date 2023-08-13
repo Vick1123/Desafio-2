@@ -1,15 +1,105 @@
 body{
-    background-color: #acb6b8;
+    background-color: #b3c0c2;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.div-cabecalho{
 
+
+.Cabecalho{
+background-image: url(imgs/pexels-pixabay-247676.jpg);
+height: 800px;
+background-size: cover;
+padding-top: 1px;
+background-attachment:fixed;
+text-align: center;
+}
+
+
+.div-cabecalho{
+   /* background-color: aqua;*/
+    margin: 100px auto 0px auto;
+    text-align: center;
+    width: 80%; 
+    color: white;
+}
+
+.div-cabecalho h1{  
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0%;
+    
+}
+
+.div-cabecalho a{
+    background-color: #232dea;
+    color: aliceblue;
+    text-decoration:none;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+   
+.div-cabecalho a:hover{
+    background-color: rgb(72, 188, 103);
+    color:black 
+}
+
+
+
+.Cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+   
 
 }
 
-.Cabecalho{
-background-image: url(/Pictures/fundo.jpg);
+.Cabecalho nav ul{
+    /*background-color: aqua;*/
+    text-align: right;
+    margin-right: 15px ;
+}
+
+
+.Cabecalho nav a{
+color:white;
+text-decoration: none;
+background-color: #3b45ff;
+padding: 5px;
+border-radius: 5px;}
+
+
+
+.Cabecalho nav a:hover{
+    background-color: rgb(243, 244, 246);
+    color: #3b45ff;
+}
+
+.main{
+    width: 90%;
+    margin: auto
+}
+
+
+
+.padding{
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+ 
+   
+    
+   
+}
+
+.padding h2{
+    background-color: #232dea;
+    text-align: center;
+    color: aliceblue;
 }
