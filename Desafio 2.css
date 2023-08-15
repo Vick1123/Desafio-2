@@ -1,5 +1,5 @@
 body{
-    background-color: #b3c0c2;
+    background-color:rgba(15, 19, 37, 0.747);
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,17 +8,18 @@ body{
 
 
 .Cabecalho{
-background-image: url(imgs/pexels-pixabay-247676.jpg);
+background-image: url(imgs/pexels-benjamin-farren-9504092.jpg);
 height: 800px;
 background-size: cover;
 padding-top: 1px;
 background-attachment:fixed;
-text-align: center;
+
 }
 
 
 .div-cabecalho{
    /* background-color: aqua;*/
+    padding: 40px;
     margin: 100px auto 0px auto;
     text-align: center;
     width: 80%; 
@@ -29,6 +30,7 @@ text-align: center;
     font-size: 50px;
     text-transform: uppercase;
     margin: 0%;
+    margin-bottom: 20px;
     
 }
 
@@ -70,7 +72,7 @@ text-align: center;
 .Cabecalho nav a{
 color:white;
 text-decoration: none;
-background-color: #3b45ff;
+background-color: #1b24c6;
 padding: 5px;
 border-radius: 5px;}
 
@@ -86,20 +88,93 @@ border-radius: 5px;}
     margin: auto
 }
 
+.caixa1{
+ background-color:rgba(21, 21, 21, 0.774);
+ padding: 10px;
+ margin: 26px;
+ margin-left: 40px; 
+ margin-right: 40px;  
+}
 
+.caixa1 h2{
+    background-color: rgb(72, 188, 103);
+    margin: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}  
 
-.padding{
-    background-color: white;
+.caixa1 p{
+    color: white;
+    
+}
+
+.textcostum{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa2{
+    background-color:rgba(21, 21, 21, 0.774);
+    padding: 10px;
+    margin: 26px;
+    margin-left: 40px; 
+    margin-right: 40px; 
+   }  
+   .caixa2 h2{
+    background-color: rgb(72, 188, 103);
+    margin: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+    
+
+   .caixa2 p{
+    color: rgb(255, 255, 255);
+   }
+.textcostum2{
+    font-family: 'Courier New', Courier, monospace; 
+}
+   .caixa3{
+    background-color:rgba(21, 21, 21, 0.774);
     padding: 15px;
-    margin: 0;
- 
+    margin: 26px;
+    margin-left: 40px; 
+    margin-right: 40px; 
+   }
+
+   .caixa3 h2{
+    background-color: rgb(72, 188, 103);
+    margin: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
    
+
+   .textcostum3{
+    font-family: 'Courier New', Courier, monospace; 
+   }
+   .caixa3 p{
+    color: white;
+   }
+
+   
+   
+
+   .rodape{
+    background-color: rgba(21, 21, 21, 0.774);
+    width: 1260px;
+    height: 40px;
+    color: white;
+    text-align:center;
+    padding-top:5px
+  
     
    
-}
+    
+   }
 
-.padding h2{
-    background-color: #232dea;
-    text-align: center;
-    color: aliceblue;
-}
