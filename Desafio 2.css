@@ -30,7 +30,7 @@ background-attachment:fixed;
     font-size: 50px;
     text-transform: uppercase;
     margin: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     
 }
 
@@ -114,6 +114,9 @@ border-radius: 5px;}
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+
+
 .caixa2{
     background-color:rgba(21, 21, 21, 0.774);
     padding: 10px;
@@ -167,14 +170,10 @@ border-radius: 5px;}
 
    .rodape{
     background-color: rgba(21, 21, 21, 0.774);
-    width: 1260px;
-    height: 40px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
     color: white;
-    text-align:center;
-    padding-top:5px
-  
-    
-   
-    
+        text-align: center;
    }
 
