@@ -7,8 +7,9 @@ body{
 
 
 
+
 .Cabecalho{
-background-image: url(imgs/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+background-image: url(imgs/Nv2.gif);
 height: 800px;
 background-size: cover;
 padding-top: 1px;
@@ -120,12 +121,12 @@ border-radius: 5px;}
     
     display: flex;
     padding-right: 10px;
-    
+   
 }
 
-
-
-
+.container:hover img {
+    transform: scale(2.1); /* Aumenta a imagem em 10% durante o hover */
+}
 
 .caixa2{
     background-color:rgba(21, 21, 21, 0.774);
@@ -159,6 +160,9 @@ border-radius: 5px;}
     
 }
 
+.container2:hover img {
+    transform: scale(1.1); /* Aumenta a imagem em 10% durante o hover */
+}
 
    .caixa3{
     background-color:rgba(21, 21, 21, 0.774);
@@ -187,12 +191,12 @@ border-radius: 5px;}
    .container3{
     
     display: flex;
-    
-   
-    
+      
 }
    
-   
+.container3:hover img {
+    transform: scale(1.1); /* Aumenta a imagem em 10% durante o hover */
+} 
 
    .rodape{
     background-color: rgba(21, 21, 21, 0.774);
